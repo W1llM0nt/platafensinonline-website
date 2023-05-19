@@ -1,0 +1,262 @@
+/*Navegador*/
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 83%;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 15);
+    padding: 1vw 8vw;
+    z-index: 999;
+}
+
+nav img
+{
+    width: 50px;
+    cursor: pointer;
+}
+
+nav .navigation
+{
+    display: flex;
+}
+
+nav .navigation ul
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li
+{
+    list-style: none;
+    margin-left: 100px;
+}
+
+nav .navigation ul li a
+{
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover
+{
+    color: #fdc93b;
+}
+
+#registration
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 83.8%;
+    height: 60vw;
+    background-image: linear-gradient(rgba(99, 112, 0, 0.5), rgba(81, 91, 233, 0.5)), url("Imagens/rainhaginga.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 6vw 8vw 6vw 8vw;
+}
+
+#registration .reminder p /*Texto publicitario*/
+{
+    color: rgb(66, 66, 70);
+    font-size: 25px;
+}
+
+#registration .reminder h1 /*Texto que solicita o Registo*/
+{
+    color: rgb(66, 66, 70);
+    font-size: 50px;
+    margin-bottom: 500px;
+}
+
+#registration .form /*Corpo do Formulario*/
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+#registration .form input
+{
+    margin: 10px;
+    border: 1px solid rgb(84, 40, 241);
+    outline: none;
+    padding: 15px 35px;
+}
+
+#registration .form input::placeholder
+{
+    color: #413c3c;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+}
+
+
+#btn
+{
+    color: #fff;
+    background: rgb(255, 0, 0);
+    transition: 0.3s ease;
+
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#btn:hover
+{
+    color: rgb(21, 21, 100);
+    background: #FDC93B;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    
+}
+
+
+/*Rodape*/
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 8vw;
+    background-color: #000000;
+}
+
+footer .footer-col
+{
+    padding-bottom: 40px;
+}
+
+footer h1
+{
+    color: rgb(66, 66, 70);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer h2
+{
+    color: rgb(66, 66, 70);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li
+{
+    list-style: none;
+    color: #7b838a;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding: 10px 0;
+}
+
+footer li:hover
+{
+    color: rgb(255, 238, 0);
+}
+
+footer p
+{
+    color: #7b838a;
+}
+
+footer .subscribe
+{
+    margin-top: 20px;
+}
+
+footer input
+{
+    width: 220px;
+    padding: 15px 12px;
+    color: #fff;
+    background: #334F6C;
+    border: none;
+    outline: none;
+    
+}
+
+footer .subscribe a
+{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #FDC93B;
+    padding: 12px 15px;
+}
+
+footer .subscribe a.yellow
+{
+    color: #2c2c2c;
+    /*background: #FDC93B;*/
+    transition: 0.3s ease;
+}
+
+footer .subscribe a.yellow:hover
+{
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+
+footer .copyright
+{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%
+}
+
+footer .copyright p
+{
+    color: #fff;
+}
+
+footer .copyright .pro-links
+{
+    margin-top: 0px;
+}
+
+footer .copyright .pro-links i
+{
+    background-color: #58587c;
+    color: #fff;
+}
+
+footer .copyright .pro-links i:hover
+{
+    background-color: #FDC938;
+    color: #2c2c2c;
+}

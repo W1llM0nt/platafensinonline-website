@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Plataforma de Ensino Online de Linguas Nacionais</title>
+    </head>
+
+    <body>
+
+        <!-- Navegação -->    
+        <nav>
+            <img src="Imagens/o-pensador.jpg" alt="">
+            
+            <div class="navigation">
+                <ul>
+                    <li><a href="#home">Casa</a></li>
+                    <li><a href="quem_somos.html">Quem somos</a></li>
+                    <li><a href="#course">Cursos</a></li>
+                    <li><a href="contactos.html">Contacto</a></li>
+                    <li>
+                        <i class="fa-solid fa-user"></i>                   
+                        <a href="login_form.html">Entrar</a><a> / </a>
+                        <a href="#registration">Registar</a>
+                    </li>
+                </ul>
+            </div>
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+
+        </nav>
+
+        
+    
+        <!-- Seccao Casa -->    
+        <section id="home">
+            <h1>Garanta o seu Futuro com o "O Pensador"</h1>
+            <p>Inscreva-se no nosso Curso de Lingua Nacional Kimbundo, um curso destinado à elite angolana</p>
+
+            <!-- Botoes -->
+            <div class="btn">
+                <a class="red" href="#">Aprenda Mais</a>
+                <a class="yellow " href="#course">Visita os nossos Cursos</a>
+            </div>
+
+        </section>
+    
+        <!-- Seccao Características -->    
+        <section id="features">
+            <h1>Vantagens</h1>
+            <p>Adira o nosso Curso de Kimbundu</p>
+            
+            <div class="fea-base">
+               
+                <div class="fea-box">
+                    <i class="fas fa-duotone fa-books"></i>
+                    <h2>Dicionário Kimbundu-Português</h2>
+                    <p>Faça o seu Curso de Kimbundu</p>
+                </div>
+            
+                <div class="fea-box">
+                    <i class="fas fa-duotone fa-file-certificate"></i>
+                    <h2>Certificação</h2>
+                    <p>Faça o seu Curso de Kimbundu</p>
+                </div>
+            
+            </div>
+
+        </section>
+    
+        <!-- Seccao Cursos -->    
+        <section id="course">
+            <h1>Nossos Cursos</h1>
+            <p>Adira já aos nossos Cursos de Kimbundo</p>
+            
+            <div class="course-box">            
+               
+                <div class="courses">
+                    <a href="cursos_principiantes.html" target="">
+                        <img src="Imagens/18-0.jpg" alt="">
+                    </a>
+                   
+                    <div class="details">
+                        <span>Actualizado 27/03/2023</span>
+                        <h2>Curso de Kimbundo para Principiantes</h2>
+                       
+                        <div class="star">
+                            <!-- define o numero de estrelas -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(239)</span>
+                        </div>
+
+                    </div>
+
+                    <div class="cost">
+                        23.000,00kz
+                    </div>
+
+                </div> 
+
+                <div class="courses">
+                    <a href="cursos_avancados.html">
+                        <img src="Imagens/KIMBUNDO.jpg" alt="">
+                    </a>
+                    
+                    <div class="details">
+                        <span>Actualizado 27/03/2023</span>
+                        <h2>Curso de Kimbundo para Avançados</h2>
+                        
+                        <div class="star">
+                            <!-- define o numero de estrelas -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(239)</span>
+                        </div>
+
+                    </div>
+
+                    <div class="cost">
+                        50.000,00kz
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </section>
+    
+        <!-- Seccao Registro -->    
+        <section id="registration">
+
+            <div class="reminder">
+                <p>Adquira 2 Cursos online gratis!</p>
+                <h1>Regista-te para adquiri-los</h1>
+            </div>
+
+            <div class="form">
+                <h2>Crie a sua conta gratis!</h2>
+
+                <form action="server.php" method="post">
+                <p>
+                    <input type="text" placeholder="Primeiro Nome" name="firstName" id="firstName"> <br>
+                    <input type="text" placeholder="Ultimo Nome" name="lastName" id="lastName"><br>
+                    <input type="text" placeholder="Email" name="email" id="email"> <br>
+                    <input type="password" placeholder="Password" name="palavraChave" id="palavraChave"> <br>
+                    <input type="password" placeholder="Confirme Password" name="confPalavraChave" id="confPalavraChave"> <br>
+                </p>
+                <p>
+                    <input id="btn" type="submit" value="Submeter...">
+                </p>
+                </form>
+
+                <!--<input type="text" placeholder="Nome" name="" id="">
+                <input type="text" placeholder="Email" name="" id="">
+                <input type="text" placeholder="Password" name="" id="">
+                <input type="text" placeholder="Confirme Password" name="" id="">
+                
+                <div class="btn">
+                    <a class="red" href="#">Submeter...</a>
+                </div>-->
+
+            </div>
+
+        </section>
+    
+        <footer>
+
+            <div class="footer-col">
+                <h1>Principais Produtos</h1>
+                <li>Linguas Nacionais</li>
+                <li>Programação</li>
+                <li>Consulturia de Segurança da Informação</li> 
+            </div>
+        
+            <div class="footer-col">
+                <h2>Boletim de Notícias</h2>
+                <p>Pode confiar. A solicitação do seu email é para o envio de ofertas de Promoções, apenas. </p>
+                
+                <div class="subscribe">
+                    <input type="text" placeholder="Seu Endereço do Correio Electrónico">
+                    <a href="#registration" class="red">Subscreva</a>
+                </div>
+
+            </div>
+        
+            <div class"copyright">
+                <p>Copyright 2023 todos os direitos reservados | Este Template foi feito pelo Aluno 3775</p>
+                
+                <div class="pro-links">
+                     <i class="fab fa-linkedin-in"></i>
+                     <i class="fab fa-instagram"></i>
+                </div>
+
+            </div>
+
+        </footer>
+    
+        <link rel="stylesheet" href="index_style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    </body>
+
+</html>
